@@ -1,23 +1,30 @@
-/* theme.css */
-body {
+/* General styling for the body, setting font, text color, background, and enabling flex layout for vertical centering */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     color: #c9d1d9;
     background-color: #0d1117;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+/* Text alignment for headings and paragraphs */
 h1, p {
     text-align: center;
 }
 
+/* Styling for the button container */
 .buttons {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 20px;
 }
 
+/* Individual button styling */
 button {
     background-color: #21262d;
     color: #58a6ff;
@@ -26,6 +33,7 @@ button {
     cursor: pointer;
 }
 
+/* Hover effect for buttons */
 button:hover {
     background-color: #30363d;
 }
