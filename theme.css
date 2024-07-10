@@ -10,7 +10,7 @@ h1, p {
     text-align: center;
 }
 
-.buttons {
+button {
     margin:auto;
     display:block;
 }
