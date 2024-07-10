@@ -10,3 +10,22 @@ body {
 h1, p {
     text-align: center;
 }
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #21262d;
+    color: #58a6ff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #30363d;
+}
